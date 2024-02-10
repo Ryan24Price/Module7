@@ -1,12 +1,12 @@
 import { useState } from "react";
-import reactlogo from "../src/assets/react.svg"
-import viteLogo from "/vite.svg";
+// import reactlogo from "../src/assets/react.svg"
+// import viteLogo from "/vite.svg";
 import "./App.css";
-import BitcoinRates from "./components/BitcoinRates";
-import { MoodProvider } from "../context/MoodContext";
+import BitcoinRates from "src/components/BitconRates.jsx";
+import { MoodProvider } from "src/context/MoodContext";
 import Emoji from "./components/Emoji";
 import AppRoutes from "./routes/AppRoutes";
-import NavBar from ".../components/NavBar";
+import NavBar from "src/components/NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
