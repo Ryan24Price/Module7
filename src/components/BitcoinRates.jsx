@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useBitcoinPrice } from "../hooks/useBitcoinPrice";
+import { useBitcoinPrice } from "../hooks/useBitconPrice";
 import { useMoodContext } from "../Context/MoodContext";
 import Emoji from "./Emoji";
 

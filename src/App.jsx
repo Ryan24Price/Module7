@@ -2,11 +2,11 @@ import { useState } from "react";
 // import reactlogo from "../src/assets/react.svg"
 // import viteLogo from "/vite.svg";
 import "./App.css";
-import BitcoinRates from "src/components/BitconRates.jsx";
-import { MoodProvider } from "src/context/MoodContext";
+import BitcoinRates from "./components/BitcoinRates";
+import { MoodProvider } from "./Context/MoodContext";
 import Emoji from "./components/Emoji";
 import AppRoutes from "./routes/AppRoutes";
-import NavBar from "src/components/NavBar";
+import NavBar from "./components/Navbar"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,7 +17,7 @@ function App() {
         <NavBar />
         <AppRoutes />
         <BitcoinRates />
-        <Emoji />
+        {/* <Emoji /> */}
       </MoodProvider>
     </>
   );
