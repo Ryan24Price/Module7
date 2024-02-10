@@ -16,7 +16,7 @@ function App() {
       <MoodProvider>
         <NavBar />
         <AppRoutes />
-        <BitcoinRates />
+        {/* <BitcoinRates /> */}
         {/* <Emoji /> */}
       </MoodProvider>
     </>

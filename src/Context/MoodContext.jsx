@@ -6,8 +6,8 @@ export const MoodProvider = (props) => {
   const [mood, setMood] = useState("😃");
 
   const handleMoodChange = () => {
-    setEmoji((prevEmoji) => (prevEmoji === "😃" ? "😞" : "😃"));
-    setMood(newMood);
+    setMood ((prevEmoji) => (prevEmoji === "😃" ? "😞" : "😃"));
+    // setMood(newMood);
   };
 
   return (

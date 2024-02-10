@@ -22,5 +22,5 @@ export function useBitcoinPrice(currency) {
     };
   }, [currency]);
 
-  return useBitcoinPrice;
+  return bitcoinPrice;
 }
